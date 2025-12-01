@@ -1,0 +1,933 @@
+[
+  {
+    "answer": [
+      {
+        "id": 2,
+        "result": {
+          "score": "",
+          "evidence": [
+            {
+              "table": "game_details",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "result": {
+          "player_name": "",
+          "points": 0,
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 6,
+        "result": {
+          "player_name": "",
+          "rebounds": 0,
+          "assists": 0,
+          "points": 0,
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 8,
+        "result": {
+          "player_name": "",
+          "points": 0,
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 10,
+        "result": {
+          "player_name": "",
+          "points": 0,
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      }
+    ],
+    "evidence": [
+      {
+        "table": "game_details",
+        "id": 22300087
+      },
+      {
+        "table": "game_details",
+        "id": 22300632
+      },
+      {
+        "table": "game_details",
+        "id": 22300060
+      },
+      {
+        "table": "game_details",
+        "id": 22300126
+      },
+      {
+        "table": "game_details",
+        "id": 22400805
+      }
+    ]
+  },
+  {
+    "answer": [],
+    "evidence": [
+      {
+        "table": "game_details",
+        "id": 22400820
+      },
+      {
+        "table": "game_details",
+        "id": 22400452
+      },
+      {
+        "table": "game_details",
+        "id": 22400826
+      },
+      {
+        "table": "game_details",
+        "id": 22400367
+      },
+      {
+        "table": "game_details",
+        "id": 22400787
+      }
+    ]
+  },
+  {
+    "answer": [
+      {
+        "id": 2,
+        "result": {
+          "winner": "",
+          "score": "",
+          "evidence": [
+            {
+              "table": "game_details",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "result": {
+          "winner": "",
+          "score": "",
+          "evidence": [
+            {
+              "table": "game_details",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "result": {
+          "player_name": "",
+          "points": 0,
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "result": {
+          "player_name": "",
+          "points": 0,
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 6,
+        "result": {
+          "player_name": "",
+          "rebounds": 0,
+          "assists": 0,
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 7,
+        "result": {
+          "player_name": "",
+          "points": 0,
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 8,
+        "result": {
+          "player_name": "",
+          "points": 0,
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 9,
+        "result": {
+          "player_name": "",
+          "points": 0,
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 10,
+        "result": {
+          "player_name": "",
+          "points": 0,
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      }
+    ],
+    "evidence": [
+      {
+        "table": "game_details",
+        "id": 22300169
+      },
+      {
+        "table": "game_details",
+        "id": 22300402
+      },
+      {
+        "table": "game_details",
+        "id": 22300824
+      },
+      {
+        "table": "game_details",
+        "id": 22300478
+      },
+      {
+        "table": "game_details",
+        "id": 22300922
+      }
+    ]
+  },
+  {
+    "answer": [
+      {
+        "id": 1,
+        "result": {
+          "points": "",
+          "evidence": [
+            {
+              "table": "game_details",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "result": {
+          "winner": "",
+          "score": "",
+          "evidence": [
+            {
+              "table": "game_details",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "result": {
+          "winner": "",
+          "score": "",
+          "evidence": [
+            {
+              "table": "game_details",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "result": {
+          "player_name": "",
+          "points": 0,
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "result": {
+          "player_name": "",
+          "points": 0,
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 6,
+        "result": {
+          "player_name": "",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 7,
+        "result": {
+          "player_name": "",
+          "points": 0,
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 8,
+        "result": {
+          "player_name": "",
+          "points": 0,
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 9,
+        "result": {
+          "player_name": "",
+          "points": 0,
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 10,
+        "result": {
+          "player_name": "",
+          "points": 0,
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      }
+    ],
+    "evidence": [
+      {
+        "table": "game_details",
+        "id": 22300389
+      },
+      {
+        "table": "game_details",
+        "id": 22300646
+      },
+      {
+        "table": "game_details",
+        "id": 22300403
+      },
+      {
+        "table": "game_details",
+        "id": 22300605
+      },
+      {
+        "table": "game_details",
+        "id": 22300684
+      }
+    ]
+  },
+  {
+    "answer": [
+      {
+        "id": 10,
+        "result": {
+          "player_name": "",
+          "points": "0",
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      }
+    ],
+    "evidence": [
+      {
+        "table": "game_details",
+        "id": 22300634
+      },
+      {
+        "table": "game_details",
+        "id": 22400280
+      },
+      {
+        "table": "game_details",
+        "id": 22301124
+      },
+      {
+        "table": "game_details",
+        "id": 22401109
+      },
+      {
+        "table": "game_details",
+        "id": 22300168
+      }
+    ]
+  },
+  {
+    "answer": [
+      {
+        "id": 6,
+        "result": {
+          "player_name": "",
+          "points": "0",
+          "rebounds": "0",
+          "assists": "0",
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "result": {
+          "winner": "",
+          "score": "",
+          "evidence": [
+            {
+              "table": "game_details",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "result": {
+          "player_name": "",
+          "points": "0",
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "result": {
+          "player_name": "",
+          "points": "0",
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 7,
+        "result": {
+          "player_name": "",
+          "points": "0",
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 8,
+        "result": {
+          "player_name": "",
+          "points": "0",
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 9,
+        "result": {
+          "player_name": "",
+          "points": "0",
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 10,
+        "result": {
+          "player_name": "",
+          "points": "0",
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      }
+    ],
+    "evidence": [
+      {
+        "table": "game_details",
+        "id": 22401073
+      },
+      {
+        "table": "game_details",
+        "id": 22300922
+      },
+      {
+        "table": "game_details",
+        "id": 22400445
+      },
+      {
+        "table": "game_details",
+        "id": 22400148
+      },
+      {
+        "table": "game_details",
+        "id": 22400298
+      }
+    ]
+  },
+  {
+    "answer": [
+      {
+        "id": 2,
+        "result": {
+          "winner": "",
+          "score": "",
+          "evidence": [
+            {
+              "table": "game_details",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "result": {
+          "player_name": "",
+          "points": 0,
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "result": {
+          "player_name": "",
+          "points": 0,
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 6,
+        "result": {
+          "player_name": "",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 7,
+        "result": {
+          "player_name": "",
+          "points": 0,
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 8,
+        "result": {
+          "player_name": "",
+          "points": 0,
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 9,
+        "result": {
+          "player_name": "",
+          "points": 0,
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 10,
+        "result": {
+          "player_name": "",
+          "points": 0,
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      }
+    ],
+    "evidence": [
+      {
+        "table": "game_details",
+        "id": 22300662
+      },
+      {
+        "table": "game_details",
+        "id": 22300163
+      },
+      {
+        "table": "game_details",
+        "id": 22401096
+      },
+      {
+        "table": "game_details",
+        "id": 22300291
+      },
+      {
+        "table": "game_details",
+        "id": 22300605
+      }
+    ]
+  },
+  {
+    "answer": [
+      {
+        "id": 6,
+        "result": {
+          "player_name": "",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 8,
+        "result": {
+          "player_name": "",
+          "points": 0,
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 9,
+        "result": {
+          "player_name": "",
+          "points": 0,
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 10,
+        "result": {
+          "player_name": "",
+          "points": 144,
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      }
+    ],
+    "evidence": [
+      {
+        "table": "game_details",
+        "id": 22400140
+      },
+      {
+        "table": "game_details",
+        "id": 22400647
+      },
+      {
+        "table": "game_details",
+        "id": 22400691
+      },
+      {
+        "table": "game_details",
+        "id": 22400285
+      },
+      {
+        "table": "game_details",
+        "id": 22400908
+      }
+    ]
+  },
+  {
+    "answer": [
+      {
+        "id": 1610612742,
+        "result": {
+          "points": "",
+          "evidence": [
+            {
+              "table": "",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 1610612757,
+        "result": {
+          "points": 0,
+          "evidence": [
+            {
+              "table": "game_details",
+              "id": 0
+            }
+          ]
+        }
+      }
+    ],
+    "evidence": [
+      {
+        "table": "game_details",
+        "id": 22300472
+      },
+      {
+        "table": "game_details",
+        "id": 22300501
+      },
+      {
+        "table": "game_details",
+        "id": 22300487
+      },
+      {
+        "table": "game_details",
+        "id": 22300892
+      },
+      {
+        "table": "game_details",
+        "id": 22300748
+      }
+    ]
+  },
+  {
+    "answer": [
+      {
+        "id": 6,
+        "result": {
+          "player_name": "",
+          "points": "40",
+          "rebounds": "0",
+          "assists": "0",
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "result": {
+          "player_name": "",
+          "points": "0",
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "result": {
+          "player_name": "",
+          "points": "0",
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": 10,
+        "result": {
+          "player_name": "",
+          "points": "40",
+          "evidence": [
+            {
+              "table": "player_box_score",
+              "id": 0
+            }
+          ]
+        }
+      }
+    ],
+    "evidence": [
+      {
+        "table": "game_details",
+        "id": 22300679
+      },
+      {
+        "table": "game_details",
+        "id": 22301199
+      },
+      {
+        "table": "game_details",
+        "id": 22300668
+      },
+      {
+        "table": "game_details",
+        "id": 22301105
+      },
+      {
+        "table": "game_details",
+        "id": 22301024
+      }
+    ]
+  }
+]

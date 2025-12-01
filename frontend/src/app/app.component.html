@@ -1,0 +1,25 @@
+<div class="app-container">
+  <h1>NBA Chat Box</h1>
+
+  <div class="chat-container">
+    <div class="messages">
+      <div *ngFor="let msg of messages" [ngClass]="msg.sender">
+        <div class="bubble">
+          {{ msg.text }}
+        </div>
+      </div>
+    </div>
+
+    <form (ngSubmit)="sendMessage()" class="input-area">
+      <input
+        [(ngModel)]="userInput"
+        name="userInput"
+        placeholder="Ask me about NBA games..."
+        autocomplete="off"
+      />
+      <button type="submit" [disabled]="loading">
+        {{ loading ? '...' : 'Send' }}
+      </button>
+    </form>
+  </div>
+</div>

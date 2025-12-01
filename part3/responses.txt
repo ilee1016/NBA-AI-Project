@@ -1,0 +1,79 @@
+##### Part 3: Writeup
+
+Answer the questions listed in the Part 3 section of Submission Requirements. Do NOT use any AI tools for this section. Limit each response to 500 words or fewer.
+
+1. This project in general took a lot of self-learning and perseverance. To be honest, pretty much every
+step of this project took hours of research and looking online for answers to all of the questions I had. 
+Talking more specifically now, the data preparation involved ingesting the datasets into a dataase, and
+then I genereated embeddings for each game by turning all the data into readable text summarie, which 
+were then passed to the Ollama model. For answering the questions, I built a small pipeline. Each question
+gets its own embedding and then that is compared to the game embeddings to find the closest match. The 
+results are then put together into readable text and then fed into the Llama model which outputs answers 
+in JSON format . I experimented a lot with the prompts to make sure that the mdoel followed the format 
+correctly. Overall, I think this project just taught me a lot about building embeddings and using odels 
+to answer questions. I will say I ran into a plethora of errors along the way and had to figure out how
+to fix them on my own, which was the biggest learning part of this project for me. 
+
+2. My technical skillset comes from my CS and Engineering background. I'm the most comfortable with Python,
+which definitely helped with all the backend implementation, and I've been trying to teach myself a lot of 
+frontend stuff (mostly web development) in my free time, so this was also a great opportunity to showcase 
+what I've learned in that regard. All of the tasks using AI models, embeddings, and similarity searches
+were all very new to me but I've always wanted to learn these things, so it was very cool to be able to do 
+that. I also learned a lot about the ups and downs of actually implementing a full stack project which is 
+not something that I have a lot of experience with, but would love to continue doing. I honestly just hope
+to learn more about advanced embeddings and other LLM-based tools in the future, and I'd like to be able 
+to build more complex projects with AI in general. 
+
+3. Like most sports, when it comes to in-game strategy in basketball, it comes down to offense and defense 
+at its core. At the sub-possession level, you're missing out on a good amount of vital data, but you can 
+definitely devise some higher-level strategies. 
+
+For example, on offense, I might look at the defensive positions (ex. man-to-man, zone) using the 
+coordinates and then analyze the number of passes and/or screens and/or drives before each shot given the 
+defensive positions. Using this information, I'd identify specific sequences in the offense that lead to 
+the most looks or the highest efficiency. 
+
+On the other hand, on defense, I'm probably looking at the distances between our defenders and the other 
+team, and analyze these distances over time for things like tracking how quickly a defender is able to 
+help on a drive, or how quickly a defender is able to recover after a screen, or close out on a shooter. 
+Things like this are the most important when it comes to defensive positions, and figuring out the most 
+effective rotations would optimize a defense in my opinion. 
+
+4. For my first feature, I would have a balance generator, which would provide an index and a report for 
+a player's balance score throughout the game. This score would be calculated based on coordinates of 
+various bones like the ankle, knee, hips, etc, and essentially, I would compute the stability over a 
+period of time (ex. during a shot from start to finish) of a player's center of gravity and see how well
+a player is able to maintain a balanced posture. Balance is an incredibly vital part of basketball, so 
+this would be an incredibly useful feature for all NBA players, specifically for the coaching staff to
+be able to implement corrections in posture in various situations. 
+
+When I used to play basketball, the thing I hated most was poor substitution strategy. There were so many 
+cases in which I'd be subbed in for too early or too late, in which my energy levels would be completely off
+for the rest of the game. I'm not sure how much this applies to players in the NBA, as most professional 
+players have better cardio than little Isaac by miles, but I'm sure there is some level of fatigue that is 
+considered when coaches make substitutions. Thus, for my second feature, I would have a measure of fatigue
+for each player over time. By tracking things like reaction time, jumping height, and running speed using 
+positional data, I can track fatigue of each player over time, which would help the coaching staff create
+a more efficient plan for substituting players in and out of the game. 
+
+One of the biggest issues in the NBA is consistency in rosters, and I think the main reason for that is a 
+team's chemistry on and off the court. Of course, off the court issues can't be solved using data analysis, 
+but on court issues might. So for my third feature, I was thinking having an index that measures team cohesion. 
+This would be used mostly be GMs who could analyze player data with previous teams and somehow be able to mix
+and match players to get an idea of their chemistry on the court before making big trades/signings. I would 
+probably use metrics like player movement vectors, spacing patterns, body orientation, and how quickly players 
+adjust to each other’s movements to come up with this index.
+
+All of these features can be impleneted using Python for processing, Numpy and Pandas for handling the data,
+and PyTorch, matplotlin, and/or plotly for modeling trends over time. 
+
+
+5. I'd design a pipeline that organizes, embeds, and retrieves text efficiently. So first, I'd probably clean 
+and segment each of the documents into smaller sections with metadata like date, topic, etc and then represent
+eahc segment with embeddings and store them in a database. After that, I’d build a search system that combines 
+both keyword matching and semantic similarity, so someone could look up things and instantly find the most 
+relevant reports. On top of that, I’d use an LLM to summarize the retrieved sections and highlight key takeaways, 
+kind of like an internal research assistant for the front office. Finally, I’d run some validation by comparing 
+the system’s findings with past scouting or trade outcomes to make sure it’s actually useful, and then integrate
+it into a simple dashboard where staff can search, filter, and generate quick summaries. The overall goal would 
+be to turn messy text into something that directly helps decision-makers spot insights faster and with more context.
