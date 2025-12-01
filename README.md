@@ -41,14 +41,3 @@ Located in `frontend/`
 
 **Purpose:**  
 Let users ask natural-language questions and get interactive, real-time results.
-
----
-
-## 🧪 Running the Project
-
-### **Backend**
-```bash
-docker compose up -d db ollama
-docker exec ollama ollama pull nomic-embed-text
-docker exec ollama ollama pull llama3.2:3b
-docker compose build app
