@@ -1,4 +1,4 @@
-import requests, json
+import requests
 from backend.config import OLLAMA_HOST
 
 

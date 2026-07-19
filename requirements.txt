@@ -8,5 +8,3 @@ numpy
 requests
 orjson
 pydantic
-transformers
-torch

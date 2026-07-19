@@ -23,7 +23,6 @@ class Q(BaseModel):
 
 @app.post("/api/chat")
 def answer(q: Q):
-    print('Received question')
     qvec = ollama_embed(EMBED_MODEL, q.question)
     with eng.begin() as cx:
        rows = cx.execute(
